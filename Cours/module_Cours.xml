@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:ueM>
+			<sp:title>Système de gestion de bases de données</sp:title>
+		</op:ueM>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Extrait du Programme Pédagogique National</sc:para>
+						<sc:para xml:space="preserve">PPN Gestion des entreprises et des administrations, 2013</sc:para>
+						<sc:para xml:space="preserve">© Ministère de l'enseignement supérieur</sc:para>
+						<sc:para xml:space="preserve">et de la recherche, 2013</sc:para>
+						<sc:para xml:space="preserve">http://www.enseignementsup-recherche.gouv.fr</sc:para>
+						<sc:para xml:space="preserve">M 32 F 02</sc:para>
+						<sc:para xml:space="preserve">Système de gestion de bases de</sc:para>
+						<sc:para xml:space="preserve">données de la GCF</sc:para>
+						<sc:para xml:space="preserve">Semestre 3 – option GCF</sc:para>
+						<sc:para xml:space="preserve">Objectifs du module :</sc:para>
+						<sc:para xml:space="preserve">Participer à la conception et à l'évolution des</sc:para>
+						<sc:para xml:space="preserve">systèmes d'information dans une organisation</sc:para>
+						<sc:para xml:space="preserve">Développer et paramétrer une application informatique</sc:para>
+						<sc:para xml:space="preserve">avec un Système de Gestion de Bases de Données</sc:para>
+						<sc:para xml:space="preserve">Relationnelles (SGBDR)</sc:para>
+						<sc:para xml:space="preserve">Compétences visées :</sc:para>
+						<sc:para xml:space="preserve">Représenter schématiquement les flux d'informati</sc:para>
+						<sc:para xml:space="preserve">on, les données et les traitements d'un système</sc:para>
+						<sc:para xml:space="preserve">d'informatisation</sc:para>
+						<sc:para xml:space="preserve">Rechercher et proposer une ou plusieurs solutions à un problème d'informatisation</sc:para>
+						<sc:para xml:space="preserve">Développer tout ou partie d'une application informatique avec un SGBDR</sc:para>
+						<sc:para xml:space="preserve">Utiliser l'aide en ligne et/ou la documentation technique d'un SGBDR</sc:para>
+						<sc:para xml:space="preserve">Prérequis :</sc:para>
+						<sc:para xml:space="preserve">Contenus :</sc:para>
+						<sc:para xml:space="preserve">Modélisation des flux du système d'information, des données et des traitements</sc:para>
+						<sc:para xml:space="preserve">Articulation des données et des traitements</sc:para>
+						<sc:para xml:space="preserve">Caractéristiques des Systèmes de Gestion de Bases de Données Relationnelles (SGBDR)</sc:para>
+						<sc:para xml:space="preserve">Création et interrogation d'une base de données et de l'interface utilisateur</sc:para>
+						<sc:para xml:space="preserve">Liaisons entre applications informatiques et leurs mises en œuvre</sc:para>
+						<sc:para xml:space="preserve">Mise en œuvre et exploitation d'un cas appliqué à la GCF</sc:para>
+						<sc:para xml:space="preserve">Modalités de mise en œuvre :</sc:para>
+						<sc:para xml:space="preserve">Modélisation</sc:para>
+						<sc:para xml:space="preserve">Travail individuel sur poste informatique</sc:para>
+						<sc:para xml:space="preserve">Prolongements possibles :</sc:para>
+						<sc:para xml:space="preserve">Macro-commandes</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:courseUa sc:refUri="/Cours/si.xml"/>
+	</op:ue>
+</sc:item>
