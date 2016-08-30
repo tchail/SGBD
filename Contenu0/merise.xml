@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Approche MERISE appliquée au système d'information comptable</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Analyse Merise</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">L'analyse est le moyen permettant de faire évoluer les systèmes d'information (mise en évidence de nouveaux besoins en informations, amélioration des procédures, des traitements...).</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">L'analyse du SI repose sur la modélisation. Un modèle est une représentation simplifiée de la réalité : on ne retient que les éléments utiles et nécessaires au système d'information.</sc:para>
+								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Image/modeleSimple.png"/></sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Il existe plusieurs méthodes de modélisation. La plus connue est la méthode MERISE. MERISE 1 permettait d'analyser les données et les traitements sur trois niveaux (conceptuel, logique, physique). Merise 1 ne permettait pas de prendre en compte certaines situations et ne prenait pas en compte les flux d'information et ne mettait pas en valeur de manière satisfaisante les liens entre les données et les traitements. Des extensions ont donc été apportées à Merise I qui forment la méthode Merise 2</sc:para>
+								<sc:para xml:space="preserve">Appliquée au système d'information comptable, l'approche MERISE propose de décrire le système en suivant des niveaux d'analyse distincts allant du plus abstrait au plus concret. On parle de niveaux d'abstraction.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Niveau 1 : niveau conceptuel</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le premier niveau, dit « conceptuel », décrit le « QUOI ? », c'est-à-dire ce que fait le système d'information comptable, sa raison d'être (quoi faire ? avec quelles données ?). Les fonctions sont décrites sans tenir compte des contraintes matérielles ni des aspects d'organisation du travail dans l'entreprise.</sc:para>
+								<sc:para xml:space="preserve">Les modèles utilisés pour la description des concepts du système d'information (comptable) sont :</sc:para>
+								<sc:para xml:space="preserve">-le modèle conceptuel des données (MCD). Ce modèle obéit à un formalisme strict, parfois désigné sous le terme « modèle entité-association » où les concepts suivants sont mis en œuvre : entités, propriétés, associations ;</sc:para>
+								<sc:para xml:space="preserve">-le modèle conceptuel des traitements (MCT). Les traitements permettent de répondre aux questions portant sur: qui fait ? Quand le fait-il ? Les concepts suivants sont utilisés : processus, événements (résultats), synchronisation.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:ex>
+					<op:pbTi>
+						<sp:title>Société neige et soleil</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le système d'information comptable de la société Neige et Soleil produit les journaux, une balance générale et des balances auxiliaires. Les procédures comptables de tenue précisent que :</sc:para>
+								<sc:para xml:space="preserve">-un compte peut être ou ne peut pas être mouvementé ;</sc:para>
+								<sc:para xml:space="preserve">-dans le journal, toute écriture passée se compose d'au moins deux lignes réparties en DIC ; -toute écriture est passée dans un journal divisionnaire ;</sc:para>
+								<sc:para xml:space="preserve">-seul le gérant est habilité à créer un compte ou un journal ;</sc:para>
+								<sc:para xml:space="preserve">-toute écriture est passée à partir de pièces comptables transmises par les autres services.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Niveau 2 : niveau organisationnel</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le second niveau, dit « organisationnel », décrit le « QUI FAIT QUOI ET OÙ ? », c'est-à-dire les choix d'organisation mise en place pour répondre aux objectifs décrits au niveau conceptuel. On définit « le Qui ? le Où ? le Quand ? ». Dans cette optique, on envisage aussi le partage des tâches entre l'homme et l'ordinateur, le mode de fonctionnement (temps réel ou différé), l'affectation des données et des traitements par site organisationnel et par poste de travail, le degré d'automatisation indépendamment des choix techniques qui suivront.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Les modèles utilisés pour la description de l'organisation du système d'information sont :</sc:para>
+								<sc:para xml:space="preserve">-le modèle organisationnel des données (MOD). Le formalisme utilisé est celui du MCD. Par simplification, ces deux niveaux sont souvent confondus ;</sc:para>
+								<sc:para xml:space="preserve">-le modèle organisationnel des traitements (MOT). Il permet de représenter, sous forme de procédures comptables, les étapes et les tâches exécutées à chaque poste de travail.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:ex>
+					<op:pbTi>
+						<sp:title>Société neige et soleil</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">le système d'information comptable de la société Neige et Soleil permet à mademoiselle Duteille d'enregistrer les écritures comptables sur son terminal. La saisie est réalisée aux heures d'ouverture au public. Les écritures saisies sont enregistrées dans un brouillard et validées en fin de mois. En cours de saisie, l'ordinateur signale les anomalies relatives aux comptes et aux journaux non créés. Les pièces comptables correspondantes sont mises en attente.</sc:para>
+								<sc:para xml:space="preserve">La consultation d'un compte ou d'un journal se fait sur écran, à partir de la date d'écriture, du numéro de compte ou du numéro du journal préalablement renseigné.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Niveau 3 : niveau logique</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le troisième niveau, dit « logique », constitue le passage de la description conceptuelle à l'implantation physique de la base de données sur le support matériel. En fait, le modèle logique répond à la question « AVEC QUELS MOYENS TECHNIQUES ? » compte tenu des contraintes liées à l'organisation comptable.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:ex>
+					<op:pbTi>
+						<sp:title>Société neige et soleil</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">le système d'information comptable de la société Neige et Soleil permet le transfert des données annuelles enregistrées sur le support magnétique (disque dur} vers le système informatique du cabinet d'expertise comptable J.-P. Young chargé d'élaborer les documents de synthèse. Par ailleurs, monsieur Gattaz amis en place une procédure de télédéclaration mensuelle de la TVA. En fin d'année civile, les déclarations sociales sont télétransmises aux organismes sociaux.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Niveau 4 : niveau physique</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le quatrième niveau, dit « physique », est celui où les choix des outils techniques sont opérés sans aucun formalisme: choix de type de supports (fichiers) choix des matériels, etc.</sc:para>
+								<sc:para xml:space="preserve">A chaque niveau de description du système d'information comptable, le concepteur (généralement informaticien) s'attache aux préoccupations de l'utilisateur (le gestionnaire-comptable).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:comp>
+					<op:pbTi>
+						<sp:title>Synthèse</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Image/synthMerise.png"/></sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/video0/merise.net">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:comp>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

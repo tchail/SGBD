@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Le système d'information</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Le système d'information de gestion</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Apparue dans les années 1970, l'analyse systémique de l'entreprise considère l'entreprise non plus comme une addition de services mais comme un système. C'est à dire un ensemble d'éléments (des moyens humains, financiers et techniques) en interrelations.</sc:para>
+								<sc:para xml:space="preserve">Pour Reix : <sc:inlineStyle role="quote">Un système d'information est un ensemble organisé de ressources : matériel, logiciel, personnel, données, procédures permettant d'acquérir, traiter, stocker, communiquer des informations (sous forme de données, textes, images, sons, etc...) dans des organisations</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">Il ne faudra pas confondre « système d'information » et « système informatique».</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/video0/introSIG.net">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Les qualités du système d'information</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">L'efficacité d'un système d'information dépend de trois qualités :</sc:para>
+								<sc:para xml:space="preserve">- la rapidité : l'utilisateur doit obtenir une information rapide pour réagir au plus vite. (Exemple: bases de données et réseaux locaux)</sc:para>
+								<sc:para xml:space="preserve">- la fiabilité : ex : pour commander un article il faut connaître l'état du stock. Le stock doit donc être mis à jour automatiquement.</sc:para>
+								<sc:para xml:space="preserve">- la pertinence : L'information doit être filtrée en fonction de l'utilisateur, exemple le directeur commercial n'a pas à connaître le détail de chaque commande, il aura simplement besoin du montant des commandes en cours.</sc:para>
+								<sc:para xml:space="preserve">Ces trois critères sont essentiels pour maîtriser le coût de l'information</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Fonctions du système d'information</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le SI comporte 6 fonctions</sc:para>
+								<sc:para xml:space="preserve">- Collecte de l'information : Exemple : pour établir les factures, il faut d'abord collecter les bons de commandes, les tarifs...</sc:para>
+								<sc:para xml:space="preserve">- Saisie de l'information sur un support (papier ou informatique) : Saisie des bons de commande sur une liasse de facturation ou sur ordinateur</sc:para>
+								<sc:para xml:space="preserve">- Calcul, tri : ex : Tri des commandes par date et par client, Calcul du montant à payer</sc:para>
+								<sc:para xml:space="preserve">- Mémorisation en vue d'une utilisation ultérieure : Classement des factures</sc:para>
+								<sc:para xml:space="preserve">- Diffusion de l'information aux différents utilisateurs. Exemple: envoi des factures aux clients</sc:para>
+								<sc:para xml:space="preserve">- Tenir compte de la confidentialité.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Les technologies de l'information</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Les traitements manuels ne subsistent que dans les très petites entreprises, l'information recourt à des technologies en évolution constante :</sc:para>
+								<sc:para xml:space="preserve">- L'informatique traditionnelle : Elle repose sur l'utilisation rationnelle de l'ordinateur qui exécute automatiquement un programme enregistré, elle s'étend aux différentes activités de l'entreprise :</sc:para>
+								<sc:para xml:space="preserve">o Travaux comptables et administratifs de base (facturation, comptabilité) ;</sc:para>
+								<sc:para xml:space="preserve">o Aide à la décision exemple : réalisation d'états statistiques ;</sc:para>
+								<sc:para xml:space="preserve">o domaine industriel : pilotage de processus industriels, C.A.O. G.P.A.O. .</sc:para>
+								<sc:para xml:space="preserve">o Avec le développement des réseaux, cette branche de l'informatique est en pleine évolution grâce au développement des applications clients-serveur ;</sc:para>
+								<sc:para xml:space="preserve">- La bureautique : Elle regroupe les activités de bureau réalisé avec l'outil informatique ;</sc:para>
+								<sc:para xml:space="preserve">- La télématique : Utilisation conjointe de l'informatique et des télécommunications. Elle permet de relier des ordinateurs distants en utilisant un réseau de télécommunications (TRANSPAC, Numéris puis INTERNET) ;</sc:para>
+								<sc:para xml:space="preserve">- Les Nouvelles Technologies de l'information et de la Communication (NTIC): Elles portent sur l'usage du multimédia (traitement du son et de l'image) et toutes les technologies qui prennent appui sur Internet (Web, visioconférence, messagerie électronique, réseaux sociaux...).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Décomposition des systèmes d'information</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Selon R. REIX, un SI peut se décomposer selon 4 critères</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/DecomSI.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+					</op:res>
+				</sp:basic>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

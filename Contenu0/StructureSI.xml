@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Structure du système d'information</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>L'Information</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="quote">L'information est un signe qui peut être transmis et stocké</sc:inlineStyle> CGO, Hachette</sc:para>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="quote">Renseignement que l'on obtient sur une personne ou sur une chose</sc:inlineStyle>. Larousse</sc:para>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="quote">L'information est un élément de connaissance susceptible d'être représenté à l'aide de conventions pour être conservé, traité ou communiqué</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">L'information est, donc, tout ce qui forme de manière significative une représentation imagée de la réalité, L'information n'est pas simplement une donnée brute (exemple: « il pleut », « nous ne vendons plus le produit PX732 »). C'est aussi la signification qui l'accompagne, la signification d'une donnée peut être différente d'une personne à une autre. </sc:para>
+								<sc:para xml:space="preserve">Exemples :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Une expression comme « il pleut » n'a pas la même signification pour le non prévoyant et le marchand de parapluies;</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Une expression comme « nous ne vendons plus le produit PX732 » n'a pas la même signification pour le client et pour le responsable de la gamme de produits.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:comp>
+					<op:pbTi>
+						<sp:title>Caractéristiques de l'information</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">L'information peut être </sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve"> Symbolique, éléments transmissibles par un signal (sonore, visuel, tactile...) ou une combinaison de signaux;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Sémantique, un ensemble d'éléments ayant un sens (ex. : le langage codé).</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">L'information destinée à être manipulée apparaît sous plusieurs formes : </sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">l'information écrite, structurée ou non, ayant pour origine des moyens d'expression humains ou non. Exemples Une lettre de candidature manuscrite, une facture client avec en-tête pré imprimé, une fiche de stock consultable sur écran d'ordinateur, etc., sont des informations;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">l'information picturale, structurée ou non, ayant pour origine des moyens d'expression humains ou non. Exemples Le dessin d'un prototype d'une nouvelle voiture, le schéma d'un bâtiment portant les issues de secours, un graphique obtenu à partir d'un tableau de chiffres, les photographies des salariés dans une base de données de gestion du personnel, les films publicitaires, etc. sont des informations picturales;</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve"> l'information orale ou sonore, structurée ou non, ayant pour origine des moyens d'expression humains ou non. Exemples Une discussion dans un couloir entre deux salariés, une conversation téléphonique entre un client et un responsable du SAV, la parole saisie et les sons restitués ordinateur à synthèse vocale, etc., sont des informations orales ou sonores;</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">- les autres formes d'information: </sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">tactile (le toucher d'une étoffe dans une entreprise textile peut faire apparaître le défaut);</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">olfactive (l'odeur dégagée par le pain dans une boulangerie industrielle est un signe de fin de cuisson mais elle pourrait signifier que la fournée est ratée);</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">sonore (la sonnerie peut indiquer que le travail est fini, mais elle peut également représenter l'obligation de commencer le travail).</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:comp>
+				<sp:comp>
+					<op:pbTi>
+						<sp:title>Les qualités de l'information</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Les informations brutes doivent être retraitées afin qu'elles puissent être transmises aux différents acteurs du système. Pour cela, l'information doit posséder certaines qualités lorsqu'elle est retranscrite. Les qualités peuvent se retrouver dans la liste non exhaustive suivante :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">utile pour le traitement à effectuer ultérieurement (ex. : une référence de produit est indispensable dans une facture alors que son emplacement dans l'entrepôt ne l'est pas);</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">récente (la connaissance du taux horaire du SMIC il y a 3 ans ne permettra pas de faire la paye aujourd'hui);</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">précise (le taux du C.R.D.S. doit être connu à la décimale près);</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve"> exacte (il faut que le n° I.N.S.E.E. de chaque salarié soit exact);</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve"> claire (un bulletin de paye doit faire apparaître clairement le salaire net, les charges sociales salariales et patronales);</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve"> non redondante (c'est-à-dire non répétitive).</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:comp>
+				<sp:comp>
+					<op:pbTi>
+						<sp:title>La C.N.I.L. et l'information</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Face aux dangers que l'informatique peut faire peser sur les libertés, la CNIL a pour mission essentielle de protéger la vie privée et les libertés individuelles ou publiques. Elle est chargée de veiller au respect de la loi &quot;Informatique et Libertés&quot; qui lui confie 5 missions principales :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve"> Informer: La CNIL informe les personnes de leurs droits et obligations, et propose au gouvernement les mesures législatives ou réglementaires de nature à adapter la protection des libertés et de la vie privée à l'évolution des techniques. L'avis de la CNIL doit d'ailleurs être sollicité avant toute transmission au Parlement d'un projet de loi créant un traitement automatisé de données nominatives;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve"> Garantir le droit d'accès: La CNIL veille à ce que les modalités de mise en oeuvre du droit d'accès aux données contenues dans les traitements n'entravent pas le libre exercice de ce droit. Elle exerce, pour le compte des citoyens qui le souhaitent, l'accès aux fichiers intéressant la sûreté de l'État, la défense et la sécurité publique, notamment ceux des Renseignements généraux;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve"> Recenser les fichiers: Les traitements de données à “risques” sont soumis à autorisation de la CNIL. Elle donne un avis sur les traitements publics utilisant le numéro national d'identification des personnes. Elle reçoit les déclarations des autres traitements. Le non-respect de ces formalités par les responsables de fichiers est passible de sanctions administratives ou pénales. La CNIL tient à la disposition du public le &quot;fichier des fichiers&quot;, c'est-à-dire la liste des traitements déclarés et leurs principales caractéristiques ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve"> Contrôler: La CNIL vérifie que la loi est respectée en contrôlant les applications informatiques. La Commission use de ses pouvoirs de vérification et d'investigation pour instruire les plaintes, pour disposer d'une meilleure connaissance de certains fichiers, pour mieux apprécier les conséquences du recours à l'informatique dans certains secteurs, pour assurer un suivi de ses délibérations. La CNIL surveille par ailleurs la sécurité des systèmes d'information en s'assurant que toutes les précautions sont prises pour empêcher que les données ne soient déformées ou communiquées à des personnes non-autorisées ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve"> Sanctionner: La CNIL peut prononcer diverses sanctions graduées : avertissement, mise en demeure, sanctions pécuniaires pouvant atteindre 300 000 €, injonction de cesser le traitement. Enfin, le Président peut demander par référé à la juridiction compétente d'ordonner toute mesure de sécurité nécessaire. Il peut, au nom de la Commission, dénoncer au Procureur de la République les violations de la loi ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve"> Réglementer: La CNIL établit des normes simplifiées, afin que les traitements les plus courants et les moins dangereux pour les libertés fassent l'objet de formalités allégées. Elle peut aussi décider de dispenser de toute déclaration des catégories de traitement sans risques. »</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/video0/cnil1.net">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:res sc:refUri="/video0/cnil2.net">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:res sc:refUri="/video0/cnil3.net">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:comp>
+				<sp:comp>
+					<op:pbTi/>
+					<op:res>
+						<sp:res sc:refUri="/video0/cnilCpt.net">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:comp>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

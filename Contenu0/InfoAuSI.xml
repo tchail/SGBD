@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>De l'information au système d'information</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>L'information structurée</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">En collectant les données brutes et en les analysant, on les transforme: elles deviennent informations manipulables et structurées. Exemples:</sc:para>
+								<sc:para xml:space="preserve">Pour reprendre l'exemple de la sonnerie: afin de distinguer le début de la fin du travail, il est nécessaire de produire deux types de sonnerie;</sc:para>
+								<sc:para xml:space="preserve">Autre exemple: un solde de 1 000 euros sur un compte client n'a pas de signification si on ne précise pas la nature du solde: débiteur ou créditeur.</sc:para>
+								<sc:para xml:space="preserve">Ces informations deviennent des instruments de:</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve"> Communication: coordination des processus de gestion;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve"> Mémorisation: conservations des traces des actions de l'entreprise et de son environnement;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve"> Décision: Le traitement des informations aboutit à d'autres informations plus précises permettant la prise de décision.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Notion de système</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Un système est un ensemble d'éléments interdépendants. La suppression ou l'altération d'un de ces éléments rend le système inopérant.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:ex>
+					<op:pbTi>
+						<sp:title>Exemples de systèmes</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Système de chauffage: la suppression des tuyauteries empêchera le système d'atteindre son but qui est le chauffage de l'immeuble.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Système comptable: l'élimination des comptes de trésorerie dans une entreprise ne permettra pas à l'entreprise d'enregistrer des opérations comme le paiement de la facture E.D.F. par prélèvement automatique. Si on supprime le compte de résultat, on ne pourra pas calculer le résultat (bénéfice ou perte) d'un exercice comptable.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+				<sp:comp>
+					<op:pbTi>
+						<sp:title>Différents niveaux d'un système</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Cette définition est à préciser. On peut faire apparaître la notion de système à plusieurs niveaux :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve"> 1er niveau: le méta système qui représente l'ensemble des agents économiques ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve"> 2e niveau: le système organisation environnement; ce sont les liens qu'une entreprise peut avoir avec son environnement immédiat (clients, fournisseurs, Etat...);</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve"> 3e niveau: le système interne à l'organisation; c'est l'ensemble des éléments régissant le fonctionnement d'une entreprise (gestion du personnel, gestion de la production, gestion financière);</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve"> 4e niveau: le système d'information comptable et de gestion; il comprend comme tout système un système opérant, un système d'information et un système de décision.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:comp>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>
