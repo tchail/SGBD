@@ -30,5 +30,6 @@
 		<sp:practUc sc:refUri="/Exercice/chocolaterie.xml"/>
 		<sp:practUc sc:refUri="/Cours/SARLJFaisTout.xml"/>
 		<sp:practUc sc:refUri="/Cours/OptimChange.xml"/>
+		<sp:practUc sc:refUri="/Cours/SARLJFaisTout.xml"/>
 	</op:courseUa>
 </sc:item>
