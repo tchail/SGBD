@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<rsc:remoteInteractive xmlns:rsc="scenari.eu:remote" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<rsc:remoteInteractiveM xmlns:op="utc.fr:ics/opale3"/>
+		<sc:location>https://support.office.com/fr-fr/article/Cr%C3%A9er-ou-supprimer-un-format-de-nombre-personnalis%C3%A9-78f2a361-936b-4c03-8772-09fab54be7f4#bm2</sc:location>
+	</rsc:remoteInteractive>
+</sc:item>

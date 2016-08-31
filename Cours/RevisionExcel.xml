@@ -20,5 +20,15 @@
 		</sp:intro>
 		<sp:courseUc sc:refUri="/RevExecel/temps.xml"/>
 		<sp:courseUc sc:refUri="/RevExecel/FctTemps.xml"/>
+		<sp:practUc sc:refUri="/Cours/brulax.xml">
+			<op:filter>
+				<sp:exclude>short</sp:exclude>
+			</op:filter>
+		</sp:practUc>
+		<sp:courseUc sc:refUri="/RevExecel/FonctionSi.xml"/>
+		<sp:courseUc sc:refUri="/Cours/FormatPersoEx.xml"/>
+		<sp:practUc sc:refUri="/Exercice/chocolaterie.xml"/>
+		<sp:practUc sc:refUri="/Cours/SARLJFaisTout.xml"/>
+		<sp:practUc sc:refUri="/Cours/OptimChange.xml"/>
 	</op:courseUa>
 </sc:item>

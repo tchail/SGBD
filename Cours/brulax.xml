@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Société BRULAX</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Pour faciliter la gestion de la paie, vous êtes chargé(e) d'automatiser le décompte des heures supplémentaires effectuées par M BRULAX Hector à partir du mois de septembre. Vous disposez du fichier brulax.xls (les parties bleues doivent contenir une formule).</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:int sc:refUri="/Exercice/BRULAX.xlsx">
+					<op:instructionM/>
+				</sp:int>
+			</op:res>
+		</sp:desc>
+	</op:practUc>
+</sc:item>
