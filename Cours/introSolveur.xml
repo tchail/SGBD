@@ -43,9 +43,100 @@
 					<op:res>
 						<sp:txt>
 							<op:txt>
-								<sc:para xml:space="preserve">Dans l'exemple suivant, le niveau trimestriel du poste Publicité a une influence sur le nombre des Unités vendues, ce qui détermine indirectement le montant du poste Chiffres de ventes, des postes qui lui sont associés et du poste Profit. Le Solveur peut modifier les budgets trimestriels consacrés à la publicité (cellules variables de décision B5:C5) dans la limite d'une contrainte budgétaire totale de 20 000 euros (cellule F5), jusqu'à ce que le profit total (cellule objectif F7) atteigne le montant maximal possible. Les valeurs des cellules variables étant utilisées pour calculer le profit sur chaque trimestre, elles sont associées à la formule de la cellule objectif F7, =SOMME(Q1 Profit:Q2 Profit).</sc:para>
+								<sc:para xml:space="preserve">Une société vend deux articles. Une vente prend en moyenne une unité pour l'article 1 et deux unités pour l'article 2. Le temps maximum disponible est de 300. </sc:para>
 							</op:txt>
 						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Le résultat est la somme des deux résultats unitaire. Le temps passé est la somme des produits des quantités d'articles vendu par le temps passé par article.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/figSolveur1.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Quelles quantités d'articles vendre pour avoir un résultat maximum sachant que le temps passé ne peut être supérieur à 100 ?</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Dans le ruban choisir <sc:inlineStyle role="code">Données</sc:inlineStyle> et choisir <sc:inlineStyle role="code">solveur</sc:inlineStyle>.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/figSolveur2.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">La fenêtre suivante apparaît.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/figSolveur3.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:orderedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">L'<sc:inlineStyle role="code">objectif à définir</sc:inlineStyle> est le résultat donc la case B11.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">on veut maximiser l'objectif, cliquer dans max</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Les <sc:inlineStyle role="code">cellules variables</sc:inlineStyle> sont le nombre d'articles vendus soit B6:C6</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Il y a différentes <sc:inlineStyle role="code">contraintes</sc:inlineStyle> :</sc:para>
+									</sc:listItem>
+								</sc:orderedList>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">le temps passé doit être inférieur ou égal à 100, B10&lt;=300</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">le nombre d'article doit être positif, B7&gt;=0 et C7&gt;=0 (utiliser le bouton ajouter)</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Le résultat final avec ces paramètres est un résultat de 7500€ pour un temps passé de 300.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/figSolveur4.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Tout est résumé dans la vidéo ci-dessous.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/video0/solveur.mp4">
+							<op:resInfoM/>
+						</sp:res>
 					</op:res>
 				</sp:ex>
 			</op:pb>
