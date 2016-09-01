@@ -41,6 +41,7 @@
 			</op:res>
 		</sp:intro>
 		<sp:courseUa sc:refUri="/Cours/RevisionExcel.xml"/>
+		<sp:courseUa sc:refUri="/Cours/solveur.xml"/>
 		<sp:courseUa sc:refUri="/Cours/si.xml"/>
 	</op:ue>
 </sc:item>
