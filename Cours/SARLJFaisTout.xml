@@ -21,12 +21,12 @@
 								<sc:para xml:space="preserve">Figure 1 Fiche mensuelle</sc:para>
 							</op:txt>
 						</sp:txt>
-						<sp:img sc:refUri="/Cours/sjftfig1.png"/>
+						<sp:img sc:refUri="/Image/sjftfig1.png"/>
 					</op:txtRes>
 				</sp:txtRes>
 				<sp:txt>
 					<op:txt>
-						<sc:para xml:space="preserve">Dans la figure 2, l'onglet "Données Personnels", on trouve le aux horaire et le temps de travail des employé(e)s . Un temps de travail de 100% correspond à 154 heures.</sc:para>
+						<sc:para xml:space="preserve">Dans la figure 2, l'onglet &quot;Données Personnels&quot;, on trouve le aux horaire et le temps de travail des employé(e)s . Un temps de travail de 100% correspond à 154 heures.</sc:para>
 					</op:txt>
 				</sp:txt>
 				<sp:txtRes>
@@ -39,7 +39,7 @@
 								<sc:para xml:space="preserve">Figure 2 : Onglet Données Personnels</sc:para>
 							</op:txt>
 						</sp:txt>
-						<sp:img sc:refUri="/Cours/sjftfig2.png"/>
+						<sp:img sc:refUri="/Image/sjftfig2.png"/>
 					</op:txtRes>
 				</sp:txtRes>
 			</op:res>
@@ -51,13 +51,13 @@
 						<sp:txt>
 							<op:txt>
 								<sc:para xml:space="preserve">A partir du classeur excel fourni, modifiez les éléments suivants : </sc:para>
-								<sc:para xml:space="preserve">➔ 1 Faire la présentation de l'onglet "Données Personnels" </sc:para>
-								<sc:para xml:space="preserve">➔ 2 Faire la présentation de la zone a1:b2 de l'onglet "Dupont" (nom en italique, et gras, contenu de la cellule A2 sur plusieurs lignes)</sc:para>
+								<sc:para xml:space="preserve">➔ 1 Faire la présentation de l'onglet &quot;Données Personnels&quot; </sc:para>
+								<sc:para xml:space="preserve">➔ 2 Faire la présentation de la zone a1:b2 de l'onglet &quot;Dupont&quot; (nom en italique, et gras, contenu de la cellule A2 sur plusieurs lignes)</sc:para>
 								<sc:para xml:space="preserve">➔ 3 Compléter les cellules sur la ligne total mensuel pour obtenir la durée mensuelle de travail. </sc:para>
-								<sc:para xml:space="preserve">➔ 4 Faire la présentation (zone A4:M9 de l'onglet "dupont") pour le titre des lignes (mois) et les titre de colonnes (nom des projets). </sc:para>
+								<sc:para xml:space="preserve">➔ 4 Faire la présentation (zone A4:M9 de l'onglet &quot;dupont&quot;) pour le titre des lignes (mois) et les titre de colonnes (nom des projets). </sc:para>
 								<sc:para xml:space="preserve">➔ 5 A l'aide de la fonction recherchev, compléter la cellule B2 durée hebdomadaire du travail. </sc:para>
 								<sc:para xml:space="preserve">➔ 6 En utilisant la Mise en Forme Conditionnelle, présentez les cellules de B5 à M9 de manière à mettre en rouge les colonnes du mois dont le total mensuel est inférieur à la durée hebdomadaire du travail (cellule B2) </sc:para>
-								<sc:para xml:space="preserve">➔ 7 Utilisez une validation de données pour n'autoriser une saisie de nombres d'heures comprises entre 0 et 200. ➔ 8 Faites ce travail pour les 2 autres employés Durant et Smith (onglet "Durant" t onglet "Smith").</sc:para>
+								<sc:para xml:space="preserve">➔ 7 Utilisez une validation de données pour n'autoriser une saisie de nombres d'heures comprises entre 0 et 200. ➔ 8 Faites ce travail pour les 2 autres employés Durant et Smith (onglet &quot;Durant&quot; t onglet &quot;Smith&quot;).</sc:para>
 							</op:txt>
 						</sp:txt>
 					</op:res>
@@ -68,7 +68,7 @@
 			<op:res>
 				<sp:txt>
 					<op:txt>
-						<sc:para xml:space="preserve">Dans la figure 3, onglet "bilan horaire personnels", on a une vue sur l'ensemble des horaires effectués par les employé(e)s. </sc:para>
+						<sc:para xml:space="preserve">Dans la figure 3, onglet &quot;bilan horaire personnels&quot;, on a une vue sur l'ensemble des horaires effectués par les employé(e)s. </sc:para>
 					</op:txt>
 				</sp:txt>
 				<sp:txtRes>
@@ -78,10 +78,10 @@
 						</op:txtResM>
 						<sp:txt>
 							<op:txt>
-								<sc:para xml:space="preserve">Figure 3 onglet "Bilan horaire Personnels" : horaire effectué par les employé(e)s </sc:para>
+								<sc:para xml:space="preserve">Figure 3 onglet &quot;Bilan horaire Personnels&quot; : horaire effectué par les employé(e)s </sc:para>
 							</op:txt>
 						</sp:txt>
-						<sp:img sc:refUri="/Cours/sjftfig3.png"/>
+						<sp:img sc:refUri="/Image/sjftfig3.png"/>
 					</op:txtRes>
 				</sp:txtRes>
 			</op:res>
@@ -103,7 +103,7 @@
 			<op:res>
 				<sp:txt>
 					<op:txt>
-						<sc:para xml:space="preserve">Pour avoir une vue sur le nombre d'heures et le coût des projets, les données sont regroupées dans l'onglet "Bilan Projet" (figure 4). Dans le tableau "liste des projets" (zone de A4:M8), on trouve le temps passé pour l'ensemble des employé(e)s pour chaque mois. Dans le tableau "Coût des projets" (zone de A12:M17) on trouve le coût du projet calculé à partir du nombre d'heures passées et coût horaire de l'employé. </sc:para>
+						<sc:para xml:space="preserve">Pour avoir une vue sur le nombre d'heures et le coût des projets, les données sont regroupées dans l'onglet &quot;Bilan Projet&quot; (figure 4). Dans le tableau &quot;liste des projets&quot; (zone de A4:M8), on trouve le temps passé pour l'ensemble des employé(e)s pour chaque mois. Dans le tableau &quot;Coût des projets&quot; (zone de A12:M17) on trouve le coût du projet calculé à partir du nombre d'heures passées et coût horaire de l'employé. </sc:para>
 					</op:txt>
 				</sp:txt>
 				<sp:txtRes>
@@ -113,10 +113,10 @@
 						</op:txtResM>
 						<sp:txt>
 							<op:txt>
-								<sc:para xml:space="preserve">Figure 4 onglet "bilan projet"</sc:para>
+								<sc:para xml:space="preserve">Figure 4 onglet &quot;bilan projet&quot;</sc:para>
 							</op:txt>
 						</sp:txt>
-						<sp:img sc:refUri="/Cours/sjftfig4.png"/>
+						<sp:img sc:refUri="/Image/sjftfig4.png"/>
 					</op:txtRes>
 				</sp:txtRes>
 			</op:res>
@@ -138,7 +138,7 @@
 								<sc:para xml:space="preserve">Figure 5 Récapitulatif du projet</sc:para>
 							</op:txt>
 						</sp:txt>
-						<sp:img sc:refUri="/Cours/sjftfig5.png"/>
+						<sp:img sc:refUri="/Image/sjftfig5.png"/>
 					</op:txtRes>
 				</sp:txtRes>
 			</op:res>

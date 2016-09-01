@@ -9,11 +9,11 @@
 				<sp:txt>
 					<op:txt>
 						<sc:para xml:space="preserve">Une tablette de chocolat ordinaire (prix de vente : 1,2 €) </sc:para>
-						<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Exercice/choco1.png"/></sc:para>
+						<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Image/choco1.png"/></sc:para>
 						<sc:para xml:space="preserve">Une tablette de chocolat goût noisette(prix de vente : 1,1 €)</sc:para>
-						<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Exercice/choco2.png"/></sc:para>
+						<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Image/choco2.png"/></sc:para>
 						<sc:para xml:space="preserve">Le processus de fabrication de ces deux produits est </sc:para>
-						<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Exercice/choc3.png"/></sc:para>
+						<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Image/choc3.png"/></sc:para>
 					</op:txt>
 				</sp:txt>
 			</op:res>
@@ -25,7 +25,7 @@
 						<sp:txt>
 							<op:txt>
 								<sc:para xml:space="preserve">1. Complétez le compte de résultat </sc:para>
-								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Exercice/choco3.png"/></sc:para>
+								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Image/choco3.png"/></sc:para>
 							</op:txt>
 						</sp:txt>
 					</op:res>
@@ -47,7 +47,7 @@
 							<op:txt>
 								<sc:para xml:space="preserve">2. Après lecture de la synthèse, identifiez les charges directes et indirectes en plaçant le montant correspondant dans la bonne cellule et faites le total de chaque catégorie de charges:</sc:para>
 								<sc:para xml:space="preserve">La fabrication a nécessité 300 heures de main d'œuvre directe (16 €/heure) se répartissant entre les tablettes ordinaires (42 %) et les tablettes goût noisette (58%).</sc:para>
-								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Exercice/choco4.png"/></sc:para>
+								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Image/choco4.png"/></sc:para>
 							</op:txt>
 						</sp:txt>
 					</op:res>
@@ -71,7 +71,7 @@
 						<sp:txt>
 							<op:txt>
 								<sc:para xml:space="preserve">3-En fonction des clés de répartition affectées à chaque centre, répartissez les charges indirectes dans chaque centre</sc:para>
-								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Exercice/choco5.png"/></sc:para>
+								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Image/choco5.png"/></sc:para>
 							</op:txt>
 						</sp:txt>
 					</op:res>
@@ -108,7 +108,7 @@
 						<sp:txt>
 							<op:txt>
 								<sc:para xml:space="preserve">5-Après avoir lu la fiche ressource (II B), complétez le tableau ci-dessous :</sc:para>
-								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Exercice/choco6.png"/></sc:para>
+								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Image/choco6.png"/></sc:para>
 							</op:txt>
 						</sp:txt>
 					</op:res>
@@ -122,7 +122,7 @@
 						<sp:txt>
 							<op:txt>
 								<sc:para xml:space="preserve">6. Après avoir lu la fiche ressource (II C), complétez le tableau ci-dessous</sc:para>
-								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Exercice/choco7.png"/></sc:para>
+								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Image/choco7.png"/></sc:para>
 							</op:txt>
 						</sp:txt>
 					</op:res>
@@ -147,7 +147,7 @@
 					<op:res>
 						<sp:txt>
 							<op:txt>
-								<sc:para xml:space="preserve">7. Déterminez le coût d'achat :<sc:inlineImg role="ico" sc:refUri="/Exercice/choco8.png"/></sc:para>
+								<sc:para xml:space="preserve">7. Déterminez le coût d'achat :<sc:inlineImg role="ico" sc:refUri="/Image/choco8.png"/></sc:para>
 							</op:txt>
 						</sp:txt>
 					</op:res>
@@ -161,7 +161,7 @@
 						<sp:txt>
 							<op:txt>
 								<sc:para xml:space="preserve">8-8. Déterminez le coût de production </sc:para>
-								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Exercice/choco9.png"/></sc:para>
+								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Image/choco9.png"/></sc:para>
 							</op:txt>
 						</sp:txt>
 					</op:res>
@@ -175,7 +175,7 @@
 						<sp:txt>
 							<op:txt>
 								<sc:para xml:space="preserve">9. Déterminez le coût de revient </sc:para>
-								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Exercice/choco10.png"/></sc:para>
+								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Image/choco10.png"/></sc:para>
 							</op:txt>
 						</sp:txt>
 					</op:res>
@@ -189,7 +189,7 @@
 						<sp:txt>
 							<op:txt>
 								<sc:para xml:space="preserve">10. Déterminez le coût de revient </sc:para>
-								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Exercice/choco11.png"/></sc:para>
+								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Image/choco11.png"/></sc:para>
 							</op:txt>
 						</sp:txt>
 					</op:res>

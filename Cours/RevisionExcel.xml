@@ -13,23 +13,20 @@
 			<op:res>
 				<sp:txt>
 					<op:txt>
-						<sc:para xml:space="preserve">Trois exercices sont proposés, le premier concerne la gestion des dates, le second </sc:para>
+						<sc:para xml:space="preserve">Ces problèmes sont proposés dans le cadre de révision. </sc:para>
 					</op:txt>
 				</sp:txt>
 			</op:res>
 		</sp:intro>
 		<sp:courseUc sc:refUri="/RevExecel/temps.xml"/>
 		<sp:courseUc sc:refUri="/RevExecel/FctTemps.xml"/>
-		<sp:practUc sc:refUri="/Cours/brulax.xml">
-			<op:filter>
-				<sp:exclude>short</sp:exclude>
-			</op:filter>
+		<sp:practUc sc:refUri="/Exercice/brulax.xml">
+			<op:filter/>
 		</sp:practUc>
 		<sp:courseUc sc:refUri="/RevExecel/FonctionSi.xml"/>
 		<sp:courseUc sc:refUri="/Cours/FormatPersoEx.xml"/>
 		<sp:practUc sc:refUri="/Exercice/chocolaterie.xml"/>
 		<sp:practUc sc:refUri="/Cours/SARLJFaisTout.xml"/>
 		<sp:practUc sc:refUri="/Cours/OptimChange.xml"/>
-		<sp:practUc sc:refUri="/Cours/SARLJFaisTout.xml"/>
 	</op:courseUa>
 </sc:item>

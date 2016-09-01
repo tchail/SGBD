@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Solveur d'Excel : analyse de scénario</sp:title>
+		</op:uM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para xml:space="preserve">Introduction au solveur d'Excel</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Le Solveur est un complément Microsoft Excel que vous pouvez utiliser pour des analyse de scénarios. Le Solveur vous permet de trouver une valeur optimale (maximale ou minimale) pour une formule dans une seule cellule, appelée cellule objectif, en fonction de contraintes ou de limites appliquées aux valeurs d'autres cellules de la formule dans une feuille de calcul</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:courseUc sc:refUri="/Cours/introSolveur.xml"/>
+	</op:courseUa>
+</sc:item>
