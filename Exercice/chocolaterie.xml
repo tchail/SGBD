@@ -59,7 +59,7 @@
 				<sc:fullTitle>Première étape : La répartition primaire des charges indirectes</sc:fullTitle>
 			</op:sTitle>
 			<op:res>
-				<sp:int sc:refUri="/Exercice/document.pdf">
+				<sp:int sc:refUri="/Exercice/tabletteschocolat.pdf">
 					<op:instructionM/>
 				</sp:int>
 			</op:res>
@@ -96,7 +96,7 @@
 				<sc:fullTitle>Deuxième étape : La répartition secondaire des charges indirectes</sc:fullTitle>
 			</op:sTitle>
 			<op:res>
-				<sp:int sc:refUri="/Exercice/document.pdf">
+				<sp:int sc:refUri="/Exercice/tabletteschocolat.pdf">
 					<op:instructionM/>
 				</sp:int>
 			</op:res>
