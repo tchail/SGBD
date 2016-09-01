@@ -32,7 +32,7 @@
 				</sp:desc>
 				<sp:hint>
 					<op:res>
-						<sp:int sc:refUri="/Exercice/document.pdf">
+						<sp:int sc:refUri="/Exercice/tabletteschocolat.pdf">
 							<op:instructionM/>
 						</sp:int>
 					</op:res>
