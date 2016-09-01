@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Valeur cible</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">La notion "Valeur Cible" dans Excel permet de résoudre une équation à une inconnue.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:ex>
+					<op:pbTi>
+						<sp:title>Recherche du prix d'achat d'un article</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Une société achète un article 100€. Elle souhaite faire un <sc:phrase role="url"><op:urlM><sp:url>https://fr.wikipedia.org/wiki/Taux_de_marque</sp:url><sp:title>Taux de marque</sp:title></op:urlM>taux de marque</sc:phrase> 20%.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">La feuille suivante peut être construite</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/valCible1.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Une étude de marché permet de déterminer que le même article est vendu par la concurrence 115€ H.T. </sc:para>
+								<sc:para xml:space="preserve">Pour atteindre cet objectif il faut soit baisser le taux de marque ou diminuer le prix d'achat.</sc:para>
+								<sc:para xml:space="preserve">Pour cela il faut sélectionner dans le ruban <sc:inlineStyle role="code">Données</sc:inlineStyle> l'<sc:inlineStyle role="code">analyse de scénario</sc:inlineStyle> et choisir l'option<sc:inlineStyle role="code"> valeur cible</sc:inlineStyle>. Puis préciser que l'on veut que la <sc:inlineStyle role="code">cellule à définir</sc:inlineStyle> est B3 (prix d'achat). La <sc:inlineStyle role="code">valeur à atteindre</sc:inlineStyle> est alors fixée 115 (nouveau prix de vente). Pour cela la <sc:inlineStyle role="code">cellule à modifier</sc:inlineStyle> est la cellule B2 (nouveau prix d'achat).</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/video0/ValeurCible1.mp4">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:ex>
+				<sp:rem>
+					<op:pbTi>
+						<sp:title>Cellule à définir</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">La cellule à définir doit contenir une formule. Cette formule est l'équation à résoudre. Dans notre exemple l'équation est la suivante :</sc:para>
+								<sc:para xml:space="preserve"><sc:textLeaf role="mathtex">y=\frac{x}{1-t}</sc:textLeaf> où y est le prix de vente H.T. , x le prix d'achat et t le taux de marque.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:rem>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

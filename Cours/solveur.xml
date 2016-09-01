@@ -2,7 +2,7 @@
 <sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
 	<op:courseUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
 		<op:uM>
-			<sp:title>Solveur d'Excel : analyse de scénario</sp:title>
+			<sp:title>Solveur d'Excel : valeur cible et analyse de scénario</sp:title>
 		</op:uM>
 		<sp:obj>
 			<op:sTxt>
@@ -13,11 +13,15 @@
 			<op:res>
 				<sp:txt>
 					<op:txt>
-						<sc:para xml:space="preserve">Le Solveur est un complément Microsoft Excel que vous pouvez utiliser pour des analyse de scénarios. Le Solveur vous permet de trouver une valeur optimale (maximale ou minimale) pour une formule dans une seule cellule, appelée cellule objectif, en fonction de contraintes ou de limites appliquées aux valeurs d'autres cellules de la formule dans une feuille de calcul</sc:para>
+						<sc:para xml:space="preserve">Le Solveur est un complément Microsoft Excel que vous pouvez utiliser pour des analyse de scénarios. </sc:para>
+						<sc:para xml:space="preserve">Si vous connaissez le résultat que vous souhaitez obtenir d'une formule, mais n'êtes pas sûr de la valeur d'entrée dont la formule a besoin pour obtenir ce résultat, utilisez la fonctionnalité Valeur cible.</sc:para>
+						<sc:para xml:space="preserve">La Valeur cible ne fonctionne qu'avec une seule valeur d'entrée de variable. Pour utiliser plusieurs valeurs d'entrée, comme le montrant du prêt et un montant du paiement mensuel,  le complément Solveur doit être utilisé.</sc:para>
 					</op:txt>
 				</sp:txt>
 			</op:res>
 		</sp:intro>
+		<sp:courseUc sc:refUri="/Cours/valeurCible.xml"/>
+		<sp:trainUcCoQuiz sc:refUri="/Exercice/exValCible.xml"/>
 		<sp:courseUc sc:refUri="/Cours/introSolveur.xml"/>
 	</op:courseUa>
 </sc:item>

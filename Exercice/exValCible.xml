@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:coQuiz xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Valeur Cible</sp:title>
+		</op:exeM>
+		<sp:trainUcNumerical sc:refUri="/Exercice/testValCible1.quiz"/>
+		<sp:trainUcNumerical sc:refUri="/Exercice/testValCible2.quiz"/>
+		<sp:trainUcCloze sc:refUri="/Exercice/valCible3.quiz"/>
+	</op:coQuiz>
+</sc:item>

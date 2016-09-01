@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Valeur cible</sp:title>
+		</op:exeM>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve">Quelle est la valeur théorique (à partir de l'équation), du taux de marque doit-on avoir pour avoir un prix de vente de 115 ?</sc:para>
+				<sc:para xml:space="preserve">Le résultat doit être sous forme de fraction p/q</sc:para>
+				<sc:para xml:space="preserve">Valeur de taux de marque : <sc:textLeaf role="gap">3</sc:textLeaf> /<sc:textLeaf role="gap"> 23</sc:textLeaf></sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

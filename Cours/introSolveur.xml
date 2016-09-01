@@ -6,6 +6,16 @@
 		</op:uM>
 		<sp:pb>
 			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le Solveur vous permet de trouver une valeur optimale (maximale ou minimale) pour une formule dans une seule cellule, appelée cellule objectif, en fonction de contraintes ou de limites appliquées aux valeurs d'autres cellules de la formule dans une feuille de calcul</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
 				<sp:rem>
 					<op:pbTi/>
 					<op:res>
