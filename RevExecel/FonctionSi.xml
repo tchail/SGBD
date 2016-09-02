@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Fonction SI &amp; recopie de formules</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:meth>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">1. Cliquez sur « Insérer une fonction » et sélectionnez la fonction SI.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Dans ce cas, le but est d'afficher « Oui » si le résultat est plus grand que 10 et « Non » si ce n'est pas le cas.</sc:para>
+										<sc:para xml:space="preserve">Le test logique va permettre de savoir si la fonction doit afficher « Oui » ou « Non ».</sc:para>
+										<sc:para xml:space="preserve">• Test logique : D2&gt;10 (dans ce cas, on demande si D2 est plus grand que 10)</sc:para>
+										<sc:para xml:space="preserve">• Si c'est vrai, la fonction affiche « Oui ».</sc:para>
+										<sc:para xml:space="preserve">• Si c'est faux, la fonction affiche « Non ».</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/FctSi1.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">2. Entrez les différentes valeurs et validez.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Remarque : si l'une des valeurs est du texte, il est nécessaire de la mettre entre guillemets (exemple : "Oui").</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/FctSi2.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">3 Maintenant faites une recopie incrémentée jusqu'à la cellule E6.</sc:para>
+										<sc:para xml:space="preserve"><sc:uLink role="resLnk" sc:refUri="/Image/FctSi3.png"><sc:inlineImg role="ico" sc:refUri="/Image/FctSi3.png"/></sc:uLink></sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/FctSi4.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Maintenant, si l'on veut changer la valeur limite de 10 (pour déterminer si c'est « Oui » ou « Non » qui doit être affiché), il va falloir modifier chaque formule, ce n'est donc pas très pratique.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">4. A la place d'entrer la valeur 10 directement dans la formule, nous allons faire référence à une cellule contenant 10. De cette manière, lorsqu'on voudra modifier cette valeur limite, il suffira de modifier la valeur de la cellule.</sc:para>
+								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Image/FctSi5.png"/></sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Pour le faire, remplacez simplement « 10 » par « A10 » </sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/FctSi6.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">6 Recopiez la formule</sc:para>
+								<sc:table role="">
+									<sc:column width="50"/>
+									<sc:column width="66"/>
+									<sc:row>
+										<sc:cell>
+											<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Image/FctSi7.png"/></sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Image/FctSi8.png"/></sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">On constate qu'il y a un problème, A10 n'a pas été conservé dans les formules ... Pour y remédier, il va falloir "fixer" A10.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">6. Une solution consiste à ajouter un $ (presser ) devant le n° de ligne et le n° de colonne. Il faut donc remplacer A10 par $A$10 (ou par A$10 puisqu'il suffit ici de "fixer" le n° de ligne).</sc:para>
+								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/Image/FctSi9.png"/></sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Après recopie, le résultat est cette fois correct </sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/FctSi10.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+					</op:res>
+				</sp:meth>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

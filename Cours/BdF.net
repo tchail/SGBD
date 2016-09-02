@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<rsc:remoteInteractive xmlns:rsc="scenari.eu:remote" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<rsc:remoteInteractiveM xmlns:op="utc.fr:ics/opale3">
+			<sp:title>Historique parité journalière</sp:title>
+		</rsc:remoteInteractiveM>
+		<sc:location>http://www.banque-france.fr/fileadmin/user_upload/banque_de_france/Economie_et_Statistiques/Changes_et_Taux/2.csv</sc:location>
+	</rsc:remoteInteractive>
+</sc:item>

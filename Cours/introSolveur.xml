@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Présentation</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le Solveur vous permet de trouver une valeur optimale (maximale ou minimale) pour une formule dans une seule cellule, appelée cellule objectif, en fonction de contraintes ou de limites appliquées aux valeurs d'autres cellules de la formule dans une feuille de calcul</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:rem>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">L'article est extrait de l'aide en ligne d'Excel et a été traduit automatiquement, voir l'avertissement. Vous pouvez consulter la version en anglais de cet article ici. </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:rem>
+				<sp:def>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le Solveur est un complément Microsoft Excel que vous pouvez utiliser pour des analyse de scénarios. Le Solveur vous permet de trouver une valeur optimale (maximale ou minimale) pour une formule dans une seule cellule, appelée cellule objectif, en fonction de contraintes ou de limites appliquées aux valeurs d'autres cellules de la formule dans une feuille de calcul. Le Solveur utilise un groupe de cellules, appelées variables de décision ou simplement cellules variables, qui interviennent dans le calcul des formules des cellules objectif et de contraintes. Le Solveur affine les valeurs des cellules variables de décision pour satisfaire aux limites appliquées aux cellules de contraintes et produire le résultat souhaité pour la cellule objectif.</sc:para>
+								<sc:para xml:space="preserve">En réalité, vous pouvez utiliser le solveur pour déterminer la valeur minimale ou maximale d'une cellule en modifiant d'autres cellules. Par exemple, vous pouvez modifier la quantité de votre budget publicitaire prévu et voir les effets sur votre montant des bénéfices prévus.</sc:para>
+								<sc:para xml:space="preserve">Remarque Versions du solveur antérieures à Excel 2007 auquel la cellule objectif en tant que « cellule cible » et les cellules variables de décision « cellules variables » ou « cellules variables ». Nombreuses améliorations ont été apportées au solveur complément pour Excel 2010, si vous utilisez Excel 2007 votre expérience sera légèrement différente.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:ex>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Une société vend deux articles. Une vente prend en moyenne une unité pour l'article 1 et deux unités pour l'article 2. Le temps maximum disponible est de 300. </sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Le résultat est la somme des deux résultats unitaire. Le temps passé est la somme des produits des quantités d'articles vendu par le temps passé par article.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/figSolveur1.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Quelles quantités d'articles vendre pour avoir un résultat maximum sachant que le temps passé ne peut être supérieur à 100 ?</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Dans le ruban choisir <sc:inlineStyle role="code">Données</sc:inlineStyle> et choisir <sc:inlineStyle role="code">solveur</sc:inlineStyle>.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/figSolveur2.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">La fenêtre suivante apparaît.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/figSolveur3.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:orderedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">L'<sc:inlineStyle role="code">objectif à définir</sc:inlineStyle> est le résultat donc la case B11.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">on veut maximiser l'objectif, cliquer dans max</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Les <sc:inlineStyle role="code">cellules variables</sc:inlineStyle> sont le nombre d'articles vendus soit B6:C6</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Il y a différentes <sc:inlineStyle role="code">contraintes</sc:inlineStyle> :</sc:para>
+									</sc:listItem>
+								</sc:orderedList>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">le temps passé doit être inférieur ou égal à 100, B10&lt;=300</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">le nombre d'article doit être positif, B7&gt;=0 et C7&gt;=0 (utiliser le bouton ajouter)</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Le résultat final avec ces paramètres est un résultat de 7500€ pour un temps passé de 300.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/figSolveur4.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Tout est résumé dans la vidéo ci-dessous.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/video0/solveur.mp4">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:ex>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

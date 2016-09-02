@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Stratégie d'achat d'une monnaie</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Stratégie d'achat d'une monnaie</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Une entreprise importe régulièrement des produits de l'étranger. Elle doit payer ces produits en utilisant la monnaie d'origine du pays. Elle doit avoir à chaque début de mois 10000 unité sur un compte pour effectuer ces achats de produits.</sc:para>
+						<sc:para xml:space="preserve">Vous devez proposer différentes stratégies d'achat et estimer quelle sera la meilleure.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/Cours/BdF.net">
+					<op:resInfoM/>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Stratégie possible : acheter le 15 du mois, quand cela baisse, quand ce la remonte...</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+	</op:practUc>
+</sc:item>

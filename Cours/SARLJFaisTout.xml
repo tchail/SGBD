@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Gestion du temps dans la société JFaisTout</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">L'activité de la société JFaisTout est constituée de projets. Les employé(e)s ont à remplir chaque mois le nombre d'heures passées par projet sur des fiches individuelles (figure 1). Ces fiches individuelles sont dans les onglets dont le nom est le nom de l'employé.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txtRes>
+					<op:txtRes>
+						<op:txtResM>
+							<sp:pos>lft</sp:pos>
+						</op:txtResM>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Figure 1 Fiche mensuelle</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:img sc:refUri="/Image/sjftfig1.png"/>
+					</op:txtRes>
+				</sp:txtRes>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Dans la figure 2, l'onglet &quot;Données Personnels&quot;, on trouve le aux horaire et le temps de travail des employé(e)s . Un temps de travail de 100% correspond à 154 heures.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txtRes>
+					<op:txtRes>
+						<op:txtResM>
+							<sp:pos>rgt</sp:pos>
+						</op:txtResM>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Figure 2 : Onglet Données Personnels</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:img sc:refUri="/Image/sjftfig2.png"/>
+					</op:txtRes>
+				</sp:txtRes>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">A partir du classeur excel fourni, modifiez les éléments suivants : </sc:para>
+								<sc:para xml:space="preserve">➔ 1 Faire la présentation de l'onglet &quot;Données Personnels&quot; </sc:para>
+								<sc:para xml:space="preserve">➔ 2 Faire la présentation de la zone a1:b2 de l'onglet &quot;Dupont&quot; (nom en italique, et gras, contenu de la cellule A2 sur plusieurs lignes)</sc:para>
+								<sc:para xml:space="preserve">➔ 3 Compléter les cellules sur la ligne total mensuel pour obtenir la durée mensuelle de travail. </sc:para>
+								<sc:para xml:space="preserve">➔ 4 Faire la présentation (zone A4:M9 de l'onglet &quot;dupont&quot;) pour le titre des lignes (mois) et les titre de colonnes (nom des projets). </sc:para>
+								<sc:para xml:space="preserve">➔ 5 A l'aide de la fonction recherchev, compléter la cellule B2 durée hebdomadaire du travail. </sc:para>
+								<sc:para xml:space="preserve">➔ 6 En utilisant la Mise en Forme Conditionnelle, présentez les cellules de B5 à M9 de manière à mettre en rouge les colonnes du mois dont le total mensuel est inférieur à la durée hebdomadaire du travail (cellule B2) </sc:para>
+								<sc:para xml:space="preserve">➔ 7 Utilisez une validation de données pour n'autoriser une saisie de nombres d'heures comprises entre 0 et 200. ➔ 8 Faites ce travail pour les 2 autres employés Durant et Smith (onglet &quot;Durant&quot; t onglet &quot;Smith&quot;).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Dans la figure 3, onglet &quot;bilan horaire personnels&quot;, on a une vue sur l'ensemble des horaires effectués par les employé(e)s. </sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txtRes>
+					<op:txtRes>
+						<op:txtResM>
+							<sp:pos>lft</sp:pos>
+						</op:txtResM>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Figure 3 onglet &quot;Bilan horaire Personnels&quot; : horaire effectué par les employé(e)s </sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:img sc:refUri="/Image/sjftfig3.png"/>
+					</op:txtRes>
+				</sp:txtRes>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">A l'aide de formule (pas de copier coller) , compléter ce tableau de l figure 3 (en utilisant des formules) à partir des données des autres onglets.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Pour avoir une vue sur le nombre d'heures et le coût des projets, les données sont regroupées dans l'onglet &quot;Bilan Projet&quot; (figure 4). Dans le tableau &quot;liste des projets&quot; (zone de A4:M8), on trouve le temps passé pour l'ensemble des employé(e)s pour chaque mois. Dans le tableau &quot;Coût des projets&quot; (zone de A12:M17) on trouve le coût du projet calculé à partir du nombre d'heures passées et coût horaire de l'employé. </sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txtRes>
+					<op:txtRes>
+						<op:txtResM>
+							<sp:pos>lft</sp:pos>
+						</op:txtResM>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Figure 4 onglet &quot;bilan projet&quot;</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:img sc:refUri="/Image/sjftfig4.png"/>
+					</op:txtRes>
+				</sp:txtRes>
+			</op:res>
+		</sp:desc>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Dans l'onglet Récapitulatif projet (figure 5), on peut aprés avoir fixé le nom du projet et le mois à l'aide d'une liste déroulante, avoir le nombre d'heures passées et le cout du projet pour le mois. </sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txtRes>
+					<op:txtRes>
+						<op:txtResM>
+							<sp:pos>rgt</sp:pos>
+						</op:txtResM>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Figure 5 Récapitulatif du projet</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:img sc:refUri="/Image/sjftfig5.png"/>
+					</op:txtRes>
+				</sp:txtRes>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">➔ 1 Faire la présentation du tableau de la zone de A1:B5 </sc:para>
+								<sc:para xml:space="preserve">➔ 2 Mettre en place la déroulante pour le du projet </sc:para>
+								<sc:para xml:space="preserve">➔ 3 Mettre en place la déroulante pour le mois </sc:para>
+								<sc:para xml:space="preserve">➔ 4 A l'aide de la fonction RechercheV trouver le nombre d'heures passées. </sc:para>
+								<sc:para xml:space="preserve">➔ 5 A l'aide de la fonction RechercheV trouver le coût mensuel du projet.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

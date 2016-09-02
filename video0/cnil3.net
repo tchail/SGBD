@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<rsc:remoteVideo xmlns:op="utc.fr:ics/opale3" xmlns:rsc="scenari.eu:remote" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:animM>
+			<sp:title>A quoi sert la C.N.I.L. ?</sp:title>
+		</op:animM>
+		<sc:location>https://www.youtube.com/watch?v=GZ8Fl91N5YY</sc:location>
+	</rsc:remoteVideo>
+</sc:item>

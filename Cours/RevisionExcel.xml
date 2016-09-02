@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Révision d'Excel</sp:title>
+		</op:uM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para xml:space="preserve">Le tableur est un outil indispensable en gestion qu'il faut maîtriser.</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Ces problèmes sont proposés dans le cadre de révision. </sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:courseUc sc:refUri="/RevExecel/temps.xml"/>
+		<sp:courseUc sc:refUri="/RevExecel/FctTemps.xml"/>
+		<sp:practUc sc:refUri="/Exercice/brulax.xml">
+			<op:filter/>
+		</sp:practUc>
+		<sp:courseUc sc:refUri="/RevExecel/FonctionSi.xml"/>
+		<sp:courseUc sc:refUri="/Cours/FormatPersoEx.xml"/>
+		<sp:practUc sc:refUri="/Exercice/chocolaterie.xml"/>
+		<sp:practUc sc:refUri="/Cours/SARLJFaisTout.xml"/>
+		<sp:practUc sc:refUri="/Cours/OptimChange.xml"/>
+	</op:courseUa>
+</sc:item>

@@ -10,23 +10,16 @@
 					<op:txt>
 						<sc:para xml:space="preserve">Extrait du Programme Pédagogique National</sc:para>
 						<sc:para xml:space="preserve">PPN Gestion des entreprises et des administrations, 2013</sc:para>
-						<sc:para xml:space="preserve">© Ministère de l'enseignement supérieur</sc:para>
-						<sc:para xml:space="preserve">et de la recherche, 2013</sc:para>
+						<sc:para xml:space="preserve">© Ministère de l'enseignement supérieur et de la recherche, 2013</sc:para>
 						<sc:para xml:space="preserve">http://www.enseignementsup-recherche.gouv.fr</sc:para>
 						<sc:para xml:space="preserve">M 32 F 02</sc:para>
-						<sc:para xml:space="preserve">Système de gestion de bases de</sc:para>
-						<sc:para xml:space="preserve">données de la GCF</sc:para>
+						<sc:para xml:space="preserve">Système de gestion de bases de données de la GCF</sc:para>
 						<sc:para xml:space="preserve">Semestre 3 – option GCF</sc:para>
 						<sc:para xml:space="preserve">Objectifs du module :</sc:para>
-						<sc:para xml:space="preserve">Participer à la conception et à l'évolution des</sc:para>
-						<sc:para xml:space="preserve">systèmes d'information dans une organisation</sc:para>
-						<sc:para xml:space="preserve">Développer et paramétrer une application informatique</sc:para>
-						<sc:para xml:space="preserve">avec un Système de Gestion de Bases de Données</sc:para>
-						<sc:para xml:space="preserve">Relationnelles (SGBDR)</sc:para>
+						<sc:para xml:space="preserve">Participer à la conception et à l'évolution des systèmes d'information dans une organisation </sc:para>
+						<sc:para xml:space="preserve">Développer et paramétrer une application informatique avec un Système de Gestion de Bases de Données Relationnelles (SGBDR)</sc:para>
 						<sc:para xml:space="preserve">Compétences visées :</sc:para>
-						<sc:para xml:space="preserve">Représenter schématiquement les flux d'informati</sc:para>
-						<sc:para xml:space="preserve">on, les données et les traitements d'un système</sc:para>
-						<sc:para xml:space="preserve">d'informatisation</sc:para>
+						<sc:para xml:space="preserve">Représenter schématiquement les flux d'information, les données et les traitements d'un système d'informatisation</sc:para>
 						<sc:para xml:space="preserve">Rechercher et proposer une ou plusieurs solutions à un problème d'informatisation</sc:para>
 						<sc:para xml:space="preserve">Développer tout ou partie d'une application informatique avec un SGBDR</sc:para>
 						<sc:para xml:space="preserve">Utiliser l'aide en ligne et/ou la documentation technique d'un SGBDR</sc:para>
@@ -47,6 +40,8 @@
 				</sp:txt>
 			</op:res>
 		</sp:intro>
+		<sp:courseUa sc:refUri="/Cours/RevisionExcel.xml"/>
+		<sp:courseUa sc:refUri="/Cours/solveur.xml"/>
 		<sp:courseUa sc:refUri="/Cours/si.xml"/>
 	</op:ue>
 </sc:item>

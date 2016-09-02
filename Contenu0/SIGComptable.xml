@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Système d'information de gestion et les procédures comptables</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Définition et rôle</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Sous-système d'information de gestion, le système d'information comptable regroupe un ensemble d'éléments en interaction, organisé, finalisé et constitué d'événements ayant des implications comptables.</sc:para>
+										<sc:para xml:space="preserve">Matériellement, le système d'information comptable de l'entreprise est constitué par l'ensemble des moyens et procédures comptables permettant de fournir les données financières nécessaires à la gestion de l'entreprise.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/SysPilota.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le rôle du système d'information comptable consiste à transformer les pièces comptables en résultats comptables représentés par les documents (balance, journaux, documents de synthèse, etc.).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:ex>
+					<op:pbTi>
+						<sp:title>Société Neige et Soleil</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">mademoiselle Duteille, comptable unique de la société Neige et Soleil, est chargée du bon fonctionnement du système d'information comptable de la société. Dans le cadre de son travail, elle dispose d'un micro-ordinateur équipé d'un progiciel intégré permettant de réaliser les opérations de paie, de comptabilité et de facturation. Elle dispose par ailleurs d'un guide de procédures comptables établies avec l'aide de l'expert-comptable de la société.</sc:para>
+								<sc:para xml:space="preserve">Mademoiselle Duteille établit périodiquement :</sc:para>
+								<sc:para xml:space="preserve">-une déclaration CA 3 de TVA adressée au centre des impôts ;</sc:para>
+								<sc:para xml:space="preserve">-les bulletins de paie des collaborateurs et les déclarations sociales et fiscales ;</sc:para>
+								<sc:para xml:space="preserve">-le tableau de bord de gestion destiné à monsieur Gattaz ;</sc:para>
+								<sc:para xml:space="preserve">-les documents annuels obligatoires.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Le système d'information comptable se caractérise donc, par la collecte, la saisie (ou enregistrement), le traitement, le stockage et la diffusion des informations auprès des utilisateurs.</sc:inlineStyle></sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Système de traitement comptable</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le système doit respecter les normes et recommandations comptables en vigueur et adopter le modèle comptable de l'entreprise (système classique ou système centralisateur). </sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Ce type de traitement n'est cependant possible que lorsqu'une seule personne tient la comptabilité de l'entreprise. Il n'y a qu'un seul journal et un seul grand livre qu'il est difficile de partager. De plus, l'essentiel du travail comptable est concentré sur les transactions (Achats/Ventes) qui peut représenter jusqu'à 80 des enregistrements comptables. Le système montre alors vite ses limites.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/TraitementSIG.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Ce système permet à plusieurs comptables de travailler sur la même comptabilité en partageant les tâches. Chacun peut alors se spécialiser dans un domaine. Il permet donc, une plus grande productivité et d'affecter davantage de personnel sur les activités les plus importantes.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/TraitementCentral.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:res sc:refUri="/video0/SigComptable.net">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

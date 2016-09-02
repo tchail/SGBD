@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Format personnalisé de nombre</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Créer un format personnalisé de nombre</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">1. Ouvrez le classeur dans lequel vous voulez créer et stocker un format de nombre personnalisé.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">2. Dans l'onglet Accueil, cliquez sur le lanceur de boîte de dialogue à côté de Nombre</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/fPerso1.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">3. Dans la zone Catégorie, cliquez sur Personnalisée</sc:para>
+								<sc:para xml:space="preserve">4. Dans la liste Type, sélectionnez le format de nombre à personnaliser.</sc:para>
+								<sc:para xml:space="preserve">Le format de nombre que vous sélectionnez s'affiche dans la zone Type au-dessus de la liste Type.</sc:para>
+								<sc:para xml:space="preserve">Remarque : Lorsque vous sélectionnez un format de nombre intégré dans la liste Type, Excel crée une copie de ce format de nombre que vous pouvez ensuite personnaliser. Le format de nombre d'origine dans la liste Type ne peut pas être modifié ni supprimé.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:meth>
+				<sp:ex>
+					<op:pbTi>
+						<sp:title>Comment faire pour appliquer sur une colonne le format « x jour(s) » ?</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">• Sélectionnez votre colonne</sc:para>
+										<sc:para xml:space="preserve">• Faites un clic droit de la souris et sélectionnez Format de cellule</sc:para>
+										<sc:para xml:space="preserve">• Activez l'onglet Nombre </sc:para>
+										<sc:para xml:space="preserve">• Sélectionnez la catégorie Personnalisée</sc:para>
+										<sc:para xml:space="preserve">• Dans la zone Type, tapez : 0&quot; jour(s)''</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/fPerso2.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+					</op:res>
+				</sp:ex>
+				<sp:ex>
+					<op:pbTi>
+						<sp:title>Comment appliquer le format Solde créditeur ou solde débiteur en fonction du résultat de la colonne ?,</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">• Dans la zone Type, il faut saisir : &quot;Solde créditeur &quot;# ##0,00 €;&quot;Solde débiteur &quot;# ##0,00 € !</sc:para>
+								<sc:para xml:space="preserve">• Dans cette syntaxe, le 0 représente la forme minimale qui sera appliqué à notre cellule, c'est-à-dire 1 chiffre et deux nombres après la virgule.</sc:para>
+								<sc:para xml:space="preserve">• Le # est utilisé pour déterminer la présentation des milliers, en particulier au niveau du séparateur. Ici ce dernier est représenté par un espace mais nous aurions pu préférer mettre un . (#.##0,00).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+				<sp:warning>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Les textes sont toujours saisis entre guillemets.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Accolez le guillemet au chiffre 0</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve"> Pensez à ajouter l'espace dans le texte</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:warning>
+				<sp:rem>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Un format de nombre personnalisé est enregistré dans le classeur dans lequel il a été créé et ne sera pas disponible dans d'autres classeurs. Pour utiliser un format personnalisé dans un nouveau classeur, vous pouvez enregistrer le classeur actif en tant que modèle Excel et l'utiliser comme base pour le nouveau classeur</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/RevExecel/fPerso3.net">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:res sc:refUri="/RevExecel/fPerso4.net">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:rem>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

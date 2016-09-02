@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>FONCTION TEMPS</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Fonction TEMPS()</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Renvoie le nombre décimal d'une heure précise. Si le format de cellule était Standard avant que la fonction ne soit entrée, le résultat est mis en forme en tant que date.</sc:para>
+								<sc:para xml:space="preserve">Le nombre décimal renvoyé par la fonction TEMPS est une valeur comprise entre 0 (zéro) et 0,99988426, qui représente l'heure, de 0:00:00 (12:00:00 AM) à 23:59:59 (11:59:59 PM).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:syntax>
+					<op:pbTi>
+						<sp:title>TEMPS(heure, minute, seconde)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">La syntaxe de la fonction TEMPS contient les arguments suivants :</sc:para>
+								<sc:para xml:space="preserve">• Heure :Obligatoire. Représente un nombre compris entre 0 (zéro) et 32767 indiquant l'heure. Toute valeur supérieure à 23 sera divisée par 24 et le reste sera traité comme la valeur horaire. Par exemple, TEMPS(27;0;0) = TEMPS(3;0;0) = 0,125 ou 03:00 (03:00 AM).</sc:para>
+								<sc:para xml:space="preserve">• Minute :Obligatoire. Représente un nombre compris entre 0 et 32767 indiquant les minutes. Toute valeur supérieure à 59 sera convertie en heures et en minutes. Par exemple, TEMPS(0;750;0) = TEMPS (12;30;0) = 0,520833 ou 12:30 (12:30 PM).</sc:para>
+								<sc:para xml:space="preserve">• Seconde :Obligatoire. Représente un nombre compris entre 0 et 32767 indiquant les secondes. Toute valeur supérieure à 59 sera convertie en heures, minutes et secondes. Par exemple, TEMPS(0;0;2000) = TEMPS(0;33;22) = 0,023148 ou 00:33:20 (12:33:20 AM)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:syntax>
+				<sp:rem>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Une valeur de temps est une portion de valeur de date représentée par un nombre décimal (par exemple, 12:00 est représenté par 0,5 car il s'agit du milieu de la journée).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:rem>
+				<sp:ex>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Copiez les données d'exemple dans le tableau suivant, et collez-le dans la cellule A1 d'un nouveau classeur Excel. Pour que les formules affichent des résultats, sélectionnez-les, appuyez sur F2, et sur Entrée. Si nécessaire, vous pouvez modifier la largeur des colonnes pour afficher toutes les données.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="">
+									<sc:column width="33"/>
+									<sc:column width="33"/>
+									<sc:column width="33"/>
+									<sc:row>
+										<sc:cell>
+											<sc:para xml:space="preserve">Heure </sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Minute </sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Seconde</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row>
+										<sc:cell>
+											<sc:para xml:space="preserve">12</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">0</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">0</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row>
+										<sc:cell>
+											<sc:para xml:space="preserve">16</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">48</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">10</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+								<sc:para xml:space="preserve">Formule Description Résultat</sc:para>
+								<sc:para xml:space="preserve">=HEURE(A2;B2;C2) Partie décimale d'un jour, pour l'heure spécifiée à la ligne 2 (12 heures, 0 minute, 0 seconde) 0.5</sc:para>
+								<sc:para xml:space="preserve">=HEURE(A3;B3;C3) Partie décimale d'un jour, pour l'heure spécifiée à la ligne 3 (16 heures, 48 minutes, 10 secondes) 0,7001157</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+				<sp:warning>
+					<op:pbTi>
+						<sp:title>Avertissement traduction automatique</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"> Cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie. </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:warning>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Gestion des heures dans Excel</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Additionner des heures</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Peu de personnes sont capables d'additionner facilement deux heures différentes afin d'obtenir un total, ou de soustraire une heure d'une autre pour obtenir la durée totale passée sur un projet. Heureusement, Excel facilite l'ajout ou la soustraction d'heures, grâce à des formules simples.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Supposons que vous souhaitiez savoir combien d'heures et de minutes seront nécessaires à l'exécution de deux tâches. Vous estimez que la première tâche nécessitera 6 heures et 45 minutes et que la deuxième tâche nécessitera 9 heures et 30 minutes.</sc:para>
+										<sc:para xml:space="preserve">1. Dans la cellule B2, tapez 6:45, et dans la cellule B3, tapez 9:30.</sc:para>
+										<sc:para xml:space="preserve">2. Tapez =B2+B3 dans la cellule B4, puis appuyez sur Entrée.</sc:para>
+										<sc:para xml:space="preserve">Il faudra 16 heures et 15 minutes pour exécuter les deux tâches.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/tabHeure1.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+					</op:res>
+				</sp:meth>
+				<sp:adv>
+					<op:pbTi>
+						<sp:title>Utilisation de somme automatique</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Vous pouvez également additionner des heures en utilisant Somme automatique pour additionner des nombres. Cliquez dans la cellule B4. Ensuite, sous l'onglet Accueil, cliquez sur Somme automatique. La formule se présente comme suit : =SOMME(B2:B3). Appuyez sur Entrée pour obtenir le résultat, 16 heures et 15 minutes.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:adv>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Additionner plus de 24 heures</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Bien, c'était assez facile, mais une étape supplémentaire est nécessaire si vos heures cumulées dépassent 24 heures. Vous devez appliquer un format spécial au résultat de la formule.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">1. Par exemple, dans la cellule B2, tapez 12:45, et, dans la cellule B3, tapez 15:30.</sc:para>
+										<sc:para xml:space="preserve">2. Tapez =B2+B3 dans la cellule B4, puis appuyez sur Entrée</sc:para>
+										<sc:para xml:space="preserve">Le résultat est 4:15, c'est-à-dire différent de ce que vous attendiez</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/tabHeure2.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">1. Pour afficher une durée supérieure à 24 heures, cliquez dans la cellule B4.</sc:para>
+										<sc:para xml:space="preserve">2. Ensuite, sous l'onglet Accueil, cliquez sur Format &gt; Format de cellule.</sc:para>
+										<sc:para xml:space="preserve">1. Dans la zone Format de cellule, cliquez sur Personnalisée dans la liste Catégorie.</sc:para>
+										<sc:para xml:space="preserve">2. Dans la zone Type, en haut de la liste de formats, tapez [h]:mm;@ , puis cliquez sur OK. (Il y a un signe deux-points après [h] et un point-virgule après mm.)</sc:para>
+										<sc:para xml:space="preserve">Le résultat correspond à 28 heures et 15 minutes. Le format sera dans la liste Type en vue d'une utilisation ultérieure</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/tabHeure3.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+					</op:res>
+				</sp:meth>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Soustraire du temps</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Supposons que vous et vos amis connaissiez les heures de début et de fin d'un projet de volontariat et que vous vouliez savoir le temps que vous y avez consacré. En d'autres termes, vous recherchez la durée écoulée ou la différence entre les deux heures.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">1. Dans la cellule B2, tapez l'heure de début, entrez un espace, puis tapez « a » pour AM (matin) ou « p » pour PM (après-midi), et appuyez sur Entrée. Dans la cellule C2, tapez l'heure de fin, y compris « a » ou « p » le cas échéant, et appuyez sur Entrée. Tapez les autres heures de début et de fin pour vos amis George et Anne.</sc:para>
+										<sc:para xml:space="preserve">2. Dans la cellule D2, soustrayez l'heure de fin de l'heure de début en tapant la formule : =C2-B2, puis en appuyant sur Entrée.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/tabHeure4.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Nous devons mettre en forme la cellule D2 pour vous débarrasser de « AM ».</sc:para>
+								<sc:para xml:space="preserve">1. Suivez l'étape 4 en dessous de Additionner plus de 24 heures.</sc:para>
+								<sc:para xml:space="preserve">2. Dans la zone Format de cellule, cliquez sur Personnalisée dans la liste Catégorie.</sc:para>
+								<sc:para xml:space="preserve">3. Dans la liste Type, cliquez sur h:mm (pour les heures et les minutes), puis surOK.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">À présent, nous voyons que Alain a travaillé 3 heures et 45 minutes. Pour obtenir les résultats de George et Anne, copiez la formule en cliquant dans la cellule D2 et en faisant glisser le pointeur vers la cellule D4. La mise en forme dans la cellule D2 est copiée de pair avec la formule.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/tabHeure5.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+					</op:res>
+				</sp:meth>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Soustraire une durée supérieure à 24 heures</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Pour soustraire la différence entre deux durées supérieures à 24 heures, créez un format spécial</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">1. Dans l'exemple ci-dessous, cliquez dans la cellule B1 et faites glisser le pointeur jusqu'à la cellule B2 de manière à pouvoir appliquer le format aux deux cellules en même temps.</sc:para>
+										<sc:para xml:space="preserve">2. Suivez l'étape 4 en dessous de Additionner plus de 24 heures.</sc:para>
+										<sc:para xml:space="preserve">3. Dans la zone Format de cellule, cliquez sur Personnalisée dans la liste Catégorie.</sc:para>
+										<sc:para xml:space="preserve">4. Dans la zone Type, en haut de la liste de formats, tapez j/m/aaaa h:mm AM/PM. (Notez l'espace vide à la fin de aaaa et à la fin de mm.)</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/Image/tabHeure6.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le nouveau format sera disponible le cas échéant dans la liste Type.</sc:para>
+								<sc:para xml:space="preserve">1. Dans la cellule B1, tapez la date de départ, y compris jour/mois/année et l'heure en utilisant « a » ou « p » pour AM et PM.</sc:para>
+								<sc:para xml:space="preserve">2. Procédez de la même façon pour la date de fin dans la cellule B2.</sc:para>
+								<sc:para xml:space="preserve">3. Dans la cellule B3, tapez cette formule : =(B2-B1)*24. Le résultat est 31,5 heures.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:meth>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

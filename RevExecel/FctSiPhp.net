@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<rsc:remoteInteractive xmlns:rsc="scenari.eu:remote" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<rsc:remoteInteractiveM xmlns:op="utc.fr:ics/opale3"/>
+		<sc:location>http://www.excel-pratique.com/fr/cours/excel_fonction_si_recopie_formules.php</sc:location>
+	</rsc:remoteInteractive>
+</sc:item>

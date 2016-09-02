@@ -5,7 +5,10 @@
 			<sp:title>Système d'Information de gestion</sp:title>
 			<sp:sTitle>Système d'Information de gestion</sp:sTitle>
 		</op:uM>
-		<sp:courseUc sc:refUri="/Cours/StructureSI.xml"/>
-		<sp:courseUc sc:refUri="/Cours/InfoAuSI.xml"/>
+		<sp:courseUc sc:refUri="/Contenu0/StructureSI.xml"/>
+		<sp:courseUc sc:refUri="/Contenu0/InfoAuSI.xml"/>
+		<sp:courseUc sc:refUri="/Contenu0/SIG.xml"/>
+		<sp:courseUc sc:refUri="/Contenu0/SIGComptable.xml"/>
+		<sp:courseUc sc:refUri="/Contenu0/merise.xml"/>
 	</op:courseUa>
 </sc:item>
